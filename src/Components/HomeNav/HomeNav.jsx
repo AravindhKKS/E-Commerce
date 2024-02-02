@@ -8,7 +8,7 @@ const HomeNav = () => {
     <div className="HomeNav">
       <div className="HomeNavWrapper">
         <div className="HomeNavLeft">
-          <Link to="./home" className="LinkWithoutStyle">
+          <Link to="/" className="LinkWithoutStyle">
             <img
               src="https://cdn.shopify.com/s/files/1/1964/8879/files/belle_754a409d-2b37-4e6f-840c-9b118579a0ed_130x.png?v=1614736019"
               alt=""
@@ -22,7 +22,7 @@ const HomeNav = () => {
           <Link to="/singleProduct" className="LinkWithoutStyle">
             <p className="HomeNavText">PRODUCT</p>
           </Link>
-          <Link to="product" className="LinkWithoutStyle">
+          <Link to="/product" className="LinkWithoutStyle">
             <p className="HomeNavText">PAGES</p>
           </Link>
           <p className="HomeNavText">BLOG</p>
@@ -35,7 +35,7 @@ const HomeNav = () => {
             <input type="text" placeholder="Search" className="Input" />
             <Search style={{ color: "gray", fontSize: "15px" }} />
           </div>
-          <Link to="cart" className="LinkWithoutStyle">
+          <Link to="/cart" className="LinkWithoutStyle">
             <Badge badgeContent={2} color="primary">
               <ShoppingCart />
             </Badge>
