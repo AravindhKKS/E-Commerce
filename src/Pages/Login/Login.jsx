@@ -16,7 +16,7 @@ const Login = () => {
           By creating an account. I consent to the processing of my personal
           data in accordance with the <b>PRIVACY POLICY</b>
         </p>
-        <Link to="/home" className="LinkWithoutStyle">
+        <Link to="/" className="LinkWithoutStyle">
           <button className="Button">Login</button>
         </Link>
       </div>
